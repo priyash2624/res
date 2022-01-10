@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo">
+      Xplore<i class="fab fa-reddit-alien fu"></i>Kill
+    </a>
+    <div class="nav-links" id="navLinks">
+        <i class="fas fa-window-close" onclick="hidemenu()" ></i>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Courses.html">Courses</a></li>
+        </ul>
+    </div>
+
+    <i class="fas fa-hamburger" onclick="showmenu()" ></i>
+   
+        </nav>
+        <h1>CONATCT US</h1>
+    </section>
+   
+       <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.165702560485!2d78.13636881461805!3d20.784583186131147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd40f36e09c771f%3A0x8e18d98144514cb2!2sDhamangaon!5e0!3m2!1sen!2sin!4v1641757477242!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </section>
+       <section class="contact-us">
+           <div class="row">
+               <div class="content-col">
+                   <div>
+                   <i class="fa fa-home"></i>
+                   <span>
+                       <h5>Anjansinghi Road ,Krushanai Complex</h5>
+                       <p>Dhamangaon rly ,Amravati ,Maharashtra ,India </p>
+                   </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>91 8446138xxx</h5>
+                        <p>Monday to Saturday ,9am to 6am</p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>xyz@gamil.com </h5>
+                        <p>Email us for your query</p>
+                    </span>
+                 </div>
+               </div>
+               <div class="content-col">
+                   <h3>Leave a Comment</h3>
+                   <form action="">
+                    <input type="text" placeholder="Write your name" required>
+                    <input type="email" placeholder="Write your email" required>
+    <textarea name="" id="" cols="8" placeholder="Your Comment"></textarea>
+    <button type="submit">Post Comment</button>
+                   </form>
+               </div>
+           </div>
+       </section>
+   <section class="footer">
+      
+<hr>
+       <h4>ABOUT US</h4>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestiae nostrum ex optio reprehenderit. Reiciendis, quisquam corrupti amet maxime pariatur ad repudiandae sint? Minus, exercitationem error perspiciatis esse est quidem.</p>
+       <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+
+       </div>
+       <p>Made with <i class="fas fa-heart"></i> by <a href="#">Prathmesh Developer</a></p>
+       <p>Copyright  <i class="fas fa-copyright"></i>2021 <a href="index.html">Xplore Skill</a>. ALL RIGHTS RESERVED</p>
+   </section>
+
+</body>
+<script>
+    let Elem=document.getElementById("navLinks")
+        function showmenu(){
+            Elem.style.right="0"
+        }
+        function hidemenu(){
+            Elem.style.right="-200px"
+        }
+
+</script>
+
+
+
+</html>

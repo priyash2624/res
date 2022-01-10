@@ -1,0 +1,640 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive
+}
+
+
+#loader {
+   
+    background: #fff;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    text-align: center;
+    transition:6s
+
+}
+      
+    
+ .header{
+min-height: 100vh;
+width: 100%;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./Rio.jpg');
+background-size: cover;
+
+
+ }
+nav{
+     display: flex;
+     padding: 2% 6%;
+     align-items: center;
+     justify-content: space-between;
+ }
+nav .logo{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.fu{
+    font-size: 42px;
+ font-style: oblique;
+    color:rgb(226, 169, 197)
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    text-transform: uppercase;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-links ul li ::after{
+content: "";
+width: 0%;
+height: 2px;
+background:chartreuse;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+width: 100%;
+}
+.text-box{
+    width: 90%color;
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h2{
+    font-size: 90px;
+    font-size: 900;
+    color: cyan;
+    text-decoration: overline;
+}
+.text-box #headtext{
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: -1%;
+    margin-bottom: 1%;
+}
+.text-box p{
+    font-size: 20px;
+    margin: 10px 0 40px;
+    color: white;
+    
+}
+.hero-btn{
+   position: relative;
+   display: inline-block;
+  color: white;
+  background: transparent;
+  font-size: 32px;
+  cursor: pointer;
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 12px 34px;
+   font-size: 13px;
+   text-decoration: none;
+   padding: 23px;
+   font-size: 23px;
+
+}
+.hero-btn:hover{
+    background-color: turquoise;
+    transition: 3.0s;
+    border: black;
+}
+ nav .fas{
+    display: none;
+
+}
+@media(max-width:700px){
+    .text-box{
+      width: 50%;
+
+    }
+    .text-box h2{
+        font-size: 20px;
+        margin:66px;
+        
+        
+        margin-top: 374px;
+        text-align: center;
+
+
+    }
+    .text-box p{
+        font-size: 20px;
+        margin: 5px 0 10px;
+        color: white;
+        
+    }
+    .hero-btn{
+        position: relative;
+        display: inline-block;
+       color: white;
+       background: transparent;
+       font-size: 12px;
+       cursor: pointer;
+        border: 1px solid white;
+        border-radius:3px;
+        padding: 8px 14px;
+        font-size: 13px;
+        text-decoration: none;
+        padding: 23px;
+        font-size: 13px;
+     
+     }
+    
+ .text-box #headtext{
+     font-size: 23px;
+ }
+ .nav-links ul li{
+     display: block;
+
+ }
+ 
+.nav-links{
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    text-align: left;
+    height: 100vh;
+    width: 200px;
+    background: cyan;
+    z-index: 2;
+    transition: 1s;
+}
+nav .fas {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.fu{
+    font-size: 22px;
+
+}
+.row{
+    flex-direction: column;
+    
+}
+
+.course-col{
+    margin-bottom: 12px;
+    width:323px
+}
+.verticalLine{
+    width: 1px;
+}
+p{
+    font-size: 12px;
+}
+
+
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+padding-top: 100px;
+
+    
+}
+.pageBlock{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.verticalLine{
+    width: 2px;
+    height: 240px;
+    background: cyan;
+    margin: 0 auto 48px;
+}
+.clear{
+    clear: both;
+}
+.tera{
+    border: 2px dashed yellow;
+    font-size: 45px;
+    font-weight: 800px;
+    margin: 15px 0px;
+    line-height: 58px;
+    text-decoration:uppercases;
+    color: greenyellow;
+}
+p{
+    color:gray;
+    font-size: 24px;
+    font-weight: 300;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    padding: 12px 13px;
+
+
+}
+
+.course-col{
+    
+    flex-basis: 31%;
+    background-color: honeydew;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.course-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0 ;
+    line-height: 1.1;
+
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+.campus{
+    width: 100%;
+    margin: auto;
+    padding-top:50px ;
+    text-align: center;
+    background-color: #f7f6f5;
+    
+}
+.campus-col{
+    position: relative;
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+
+}
+.campus-col img{
+    width: 600px;
+    
+}
+.layer{
+    background:transparent;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+background: #24f8c741;
+}
+.layer h3{
+    position: absolute;
+    width:100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50% );
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.facilities h1{
+    margin: auto;
+    padding: 12px 13px;
+    top: 0;
+    text-align: center;
+}
+.facilities{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+.facilities-col{
+    flex-basis: 31%;
+    
+border-radius: 12px;
+
+text-align: center;
+}
+.facilities-col img{
+width: 100%;
+transition: 0.5s;
+border-radius: 12px;
+
+
+}
+.facilities-col img:hover{
+    box-shadow: 0 0 20px 10px rgba(54,58,121,0.2);
+}
+.facilities-col p{
+       
+    padding: 0;}
+.facilities-col h3{
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.conatct{
+    background-image: url('./paris.jpg');
+    /* background-size: cover;
+    width: 100%;
+    
+    margin: auto;
+    border-radius: 15px; */
+}
+
+.GU{
+    align-items: center;
+    
+    margin-bottom: 223px;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.bottomline{
+    display: block;
+    width: 100%;
+    height: 1px;
+    line-height: 2px;
+    color: chartreuse;
+    position: relative;
+}
+.footer h4{
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: 600;
+
+}
+.footer a:hover{
+    color:cyan;
+
+}
+.footer .fab{
+    color: darkturquoise;
+    margin: 0 13px ;
+    cursor: pointer;
+    padding: 19px 0;
+    font-size: 40px;
+}
+.footer .fab:hover{
+    color: yellow;
+}
+.fa-heart{
+    color: red;
+}
+.footer hr{
+    border: 2px solid grey;
+}
+/* .loader{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+
+}
+.laoder>div{
+    height: 100px;
+    width: 100px;
+    border: 15px solid blue;
+    border-top: turquoise;
+
+} */
+.sub-header{
+    height: 60vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./Rio.jpg');
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.sub-header h1{
+    
+    color:cyan;
+    
+ margin-top: 90px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 20px;
+}
+.about-col img{
+    width: 350px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 30px;
+
+}
+.about-col h1{
+    
+    width: 300px;
+    color:red;
+    
+
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.hero-btn1{
+    border: 2px solid red;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+   color: black;
+   
+   font-size: 32px;
+   cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 23px;
+    transition: 3s;
+}
+.hero-btn1:hover{
+    background: hotpink;
+}
+
+.blog-left{
+margin-right:22px;
+flex-basis: 65%;
+
+}
+.blog-left h1{
+    margin-bottom: 44px;
+    
+}
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+
+}
+.blog-right{
+    flex-basis: 32%;
+    margin-bottom:100px;
+
+
+    width:100%
+
+}
+.row img{
+    width:300px;
+    margin-bottom:50px;
+    
+}
+.blog-right h3{
+    background: cyan;
+    color:white;
+    padding: 7px 0;
+
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.blog-right div{
+    display: flex;
+    align-items: c;
+    justify-content: space-between;
+    color: purple;
+    padding: 8px 0 ;
+    box-sizing: border-box;
+
+}
+.blog-right div:hover{
+    color: springgreen;
+}
+.comment-box h3{
+    text-align: center;
+}
+.comment input, .comment textarea{
+width: 100%;
+padding: 10px 0;
+margin: 15px 0;
+box-sizing: border-box;
+border: 2px solid black;
+outline: none;
+background: rgb(241, 234, 234);
+
+
+}
+.comment-box{
+    border: 1px solid grey;
+    margin: 50px 0;
+    padding: 10px 20px ;
+}
+.comment-box button{
+    margin: 10px 0;
+    border: 2px dotted yellow;
+    padding: 13px 12px;
+    background-color: pink;
+}
+.location{
+    width: 80%;
+    padding: 80px 0;
+
+    margin: auto;
+}
+.location iframe{
+    width: 100%;
+}
+.contct-us{
+    width:80%;
+    margin: auto;
+    
+}
+.content-col{
+    flex-basis:48%;
+    margin-bottom:30spx;
+
+
+}
+.content-col div{
+    display:flex;
+    align-items:center;
+    margin-bottom:40px;
+
+}
+.content-col div .fa{
+    font-size:28px;
+    color:cyan;
+    margin:10px;
+    margin-right:30px
+}
+.content-col div p{
+    padding:0;
+
+}
+.content-col div h5{
+    font-size:20px;
+    margin-bottom:5px;
+    color:grey;
+    font-weight:400;
+
+}
+.content-col input ,.content-col textarea {
+    width: 100%;
+padding: 10px 0;
+margin: 15px 0;
+box-sizing: border-box;
+border: 2px solid black;
+outline: none;
+background: rgb(241, 234, 234);
+
+}
